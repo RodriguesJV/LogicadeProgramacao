@@ -1,3 +1,7 @@
+//João Vitor Rodrigues dos Santos
+//MAtricula:25114290126
+
+
 const prompt = require ('prompt-sync')({sigint:true})
 var cor= prompt("digite uma das cores do semáforo(verde,amarelo e vermelho) ")
 cor= cor.toLocaleLowerCase()

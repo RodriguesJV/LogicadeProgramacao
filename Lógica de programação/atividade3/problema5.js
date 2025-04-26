@@ -1,3 +1,6 @@
+//João Vitor Rodrigues dos Santos
+//MAtricula:25114290126
+
 const prompt= require ('prompt-sync') ({sigint:true})
 var dia = parseFloat(prompt("Qual o dia que você nasceu? "))
 var mes = parseFloat(prompt("Qual o número do mês que você nasceu? "))
