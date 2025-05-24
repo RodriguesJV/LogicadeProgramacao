@@ -71,5 +71,25 @@ console.log('-'.repeat(90));
 let goat = [];
 goat.push(artilheiros1, artilheiros2, artilheiros3);
 console.log(goat);
-
+console.log("-".repeat(90));
 //10 Adicione um elemento ao final do array criado e outro ao início.
+let artilheiros4 = new artilheiro('Haaland','Centroavante','Man City','Noruegues');
+let artilheiros5 = new artilheiro('Mbappe','Centroavante','Real Madrid','Francês');
+goat.unshift(artilheiros4);
+console.log(goat);
+
+console.log("-".repeat(90));
+
+goat.push(artilheiros5);
+console.log(goat);
+
+console.log("-".repeat(90));
+//11. Desfaça as adições de elementos feitas em 10).
+goat.pop(goat);
+goat.shift(goat);
+
+console.log(goat);
+
+console.log("-".repeat(90));
+
+//12.  Puxe o terceiro atributo do segundo elemento do array que foi criado em 9)
