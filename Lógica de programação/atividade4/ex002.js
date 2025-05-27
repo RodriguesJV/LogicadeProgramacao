@@ -93,3 +93,30 @@ console.log(goat);
 console.log("-".repeat(90));
 
 //12.  Puxe o terceiro atributo do segundo elemento do array que foi criado em 9)
+console.log(Object.values(artilheiros2)[3]);
+
+//13.1 . let primos = [2,[5,7,11,[97,23]], [2,53,[29,7]]]. Determine os elementos 97 e 29 usando indexação
+let primos = [2,[5,7,11,[97,23]], [2,53,[29,7]]]
+
+console.log(primos[1][3][0]);
+
+console.log(primos[2][2][0]);
+
+console.log( primos.length)
+
+
+//13.2  Reproduza a pirâmide:
+/*
+*
+**
+***
+****
+*****
+******
+*/
+let char = '*';
+let num= 6;
+
+for(let i = 1; i <= num; i++){
+    console.log(char.repeat(i))
+}
