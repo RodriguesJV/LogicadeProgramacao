@@ -1,2 +1,2 @@
-# L-gica-de-Programa-o
-Aqui está as atividades que eu fiz na matéria de Lógica de programação
+# LogicadeProgramacao
+Aqui está os meus aprendizados da matéria de Lógica de programação
