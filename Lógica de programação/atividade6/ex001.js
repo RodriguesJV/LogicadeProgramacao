@@ -5,7 +5,7 @@
 // At= (B+b)*h/2
 
 function areaTrapezio(h,B,b){
-    return (B + b)*h/2
+    return (B + b)*h/2;
 }
 
 console.log(areaTrapezio(12,6,6));

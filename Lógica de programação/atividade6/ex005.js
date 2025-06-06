@@ -12,4 +12,4 @@ function num(){
         return `O número ${ask} é ímpar`
     }
 }
-num();
+console.log(num());
